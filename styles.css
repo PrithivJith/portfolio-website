@@ -189,10 +189,19 @@ nav ul li a:hover {
     justify-content: center;
 }
 #intro{
-    margin-right: 100px;
+    margin-right: 200px;
 }
 #projects{
-    margin-left: 100px;
+    margin-left: 200px;
+}
+@media only screen and (max-width:1632px) {
+    #intro{
+        margin-right: 100px;
+    }
+    #projects{
+        margin-left: 100px;
+    }
+
 }
 
 #projects * {

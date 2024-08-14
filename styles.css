@@ -3,6 +3,7 @@
 
 * {
     color: hsl(218, 27%, 92%);
+    overflow-x: hidden;
 }
 
 
@@ -79,14 +80,14 @@ nav ul li {
 nav ul li a {
     display: inline-block;
     text-align: center;
-    font-size: 1.3rem;
+    font-size: 1.6rem;
     text-decoration: none;
 }
 
 .nav ul li a {
     display: inline-block;
     text-align: center;
-    font-size: 1.3rem;
+    font-size: 1.6rem;
     text-decoration: none;
 }
 
@@ -141,6 +142,9 @@ nav ul li a:hover {
 }
 
 h1{
-    font-size: 8rem;
+    font-size: 6em;
+    word-spacing: .5rem;
+    letter-spacing: .1rem;
+    line-height: 1.1em;
     font-family: "Ubuntu", sans-serif;
 }

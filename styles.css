@@ -1,3 +1,5 @@
+
+
 @import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Big+Shoulders+Display:wght@100..900&family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=New+Amsterdam&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Big+Shoulders+Display:wght@100..900&family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=New+Amsterdam&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
 
@@ -94,6 +96,7 @@ nav ul li a {
 nav ul li a:hover {
     text-decoration: underline;
 }
+
 .contact {
     background-color: black;
     font-size: 1.3rem;
@@ -141,10 +144,39 @@ nav ul li a:hover {
     }
 }
 
-h1{
+#intro * {
+    font-family: "Ubuntu", sans-serif;
+}
+
+#intro {
+    margin-left: 3em;
+    margin-top: 3em;
+}
+
+#intro h1 {
+    display: inline-block;
     font-size: 6em;
+    overflow-y: hidden;
     word-spacing: .5rem;
     letter-spacing: .1rem;
     line-height: 1.1em;
-    font-family: "Ubuntu", sans-serif;
+}
+
+#intro p{
+    max-width: 500px;
+    color: rgba(255, 255, 255, 0.6);
+    line-height: 1.5em;
+    font-size: 1.2rem;
+    
+}
+@media only screen and (max-width:618px) {
+    #intro {
+        font-size: 12px;
+    }
+}
+@media only screen and (max-width:360px) {
+    #intro {
+        font-size: 10px;
+    }
+    
 }

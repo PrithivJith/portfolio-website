@@ -1,41 +1,101 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <script src="main.js" defer></script>
-    <link rel="icon" type="image/x-icon" href="favicon.ico">
-    <title>Portfolio</title>
-</head>
-<body>
-    <header>    
-        <div class="nav">
-            <a href="#"><img width="48px" height="48px" src="code-256.png" alt="logo"></a>
-            <ul>
-                <li class="nav-item"><a href="#intro">Introduction</a></li>
-                <li class="nav-item"><a href="">Projects</a></li>
-                <li class="nav-item"><a href="">Skills</a></li>
-            </ul>
-            <button class="contact">Contact&nbsp;Me</button>
-        </div>
-        <nav>
-            <a href="#"><img width="48px" height="48px" src="code-256.png" alt="logo"></a>
-            <ul>
-                <li class="nav-item"><a href="#intro">Introduction</a></li>
-                <li class="nav-item"><a href="">Projects</a></li>
-                <li class="nav-item"><a href="">Skills</a></li>
-            </ul>
-            <button class="contact">Contact&nbsp;Me</button>
-        </nav>
-        
-    </header>
-    <main>
-        
-        <section id="intro">
-                <h1>Hello, I'm<br>Prithiv Jith.</h1>
-                <p>I am a self taught developer from the <u>Halifax, United Kingdom</u>. I am interested in fullstack development and also have a strong understanding of python and its various modules. I am <u><span id="age">0</span> years</u> old and I started to code at the age of 11. I had a u passion for building projects that solve Real Life problems and I am good at collaborating with people to maximize productivity.</p>
-        </section>
-    </main>
-</body>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="styles.css" />
+        <script src="main.js" defer></script>
+        <link rel="icon" type="image/x-icon" href="favicon.ico" />
+        <title>Portfolio</title>
+    </head>
+    <body>
+        <header>
+            <div class="nav">
+                <a href="#"
+                    ><img
+                        width="48px"
+                        height="48px"
+                        src="code-256.png"
+                        alt="logo"
+                /></a>
+                <ul>
+                    <li class="nav-item"><a href="#intro">Introduction</a></li>
+                    <li class="nav-item"><a href="">Projects</a></li>
+                    <li class="nav-item"><a href="">Skills</a></li>
+                </ul>
+                <button class="contact">Contact&nbsp;Me</button>
+            </div>
+            <nav>
+                <a href="#"
+                    ><img
+                        width="48px"
+                        height="48px"
+                        src="code-256.png"
+                        alt="logo"
+                /></a>
+                <ul>
+                    <li class="nav-item"><a href="#intro">Introduction</a></li>
+                    <li class="nav-item"><a href="">Projects</a></li>
+                    <li class="nav-item"><a href="">Skills</a></li>
+                </ul>
+                <button class="contact">Contact&nbsp;Me</button>
+            </nav>
+        </header>
+        <main>
+            <div id="main-container">
+                <section id="intro">
+                    <h1>Hello, I'm<br />Prithiv Jith.</h1>
+                    <p>
+                        I am a self taught developer from the
+                        <u>Halifax, United Kingdom</u>. I am interested in
+                        fullstack development and also have a strong
+                        understanding of python and its various modules. I am
+                        <u><span id="age">0</span> years</u> old and I started
+                        to code at the age of 11. I had a u passion for building
+                        projects that solve Real Life problems and I am good at
+                        collaborating with people to maximize productivity.
+                    </p>
+                </section>
+                <section id="projects">
+                    <h1>Projects</h1>
+                    <div class="project">
+                        <div class="social-row">
+                            <h3>VISUALBASIC.NET</h3>
+                            <div class="socials">
+                                <img
+                                    src="download-2-64.png"
+                                    width="32"
+                                    height="32"
+                                    alt="download"
+                                    class="download"
+                                />
+                                <img
+                                    src="youtube-4-64.png"
+                                    width="32"
+                                    height="32"
+                                    alt="youtube"
+                                    class="youtube"
+                                />
+                                <img
+                                    src="github-8-64.png"
+                                    width="32"
+                                    height="32"
+                                    alt="github"
+                                    class="github"
+                                />
+                            </div>
+                        </div>
+                        <h2>Terminal Game</h2>
+                        <p>
+                            A 3000 lines+
+                            <abbr title="Turn Based Combat System">TBC</abbr>
+                            game with ascii art, data saving and automated
+                            opponent.
+                        </p>
+                        <p></p>
+                    </div>
+                </section>
+            </div>
+        </main>
+    </body>
 </html>

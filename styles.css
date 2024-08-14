@@ -148,8 +148,8 @@ nav ul li a:hover {
 }
 
 #intro {
-    margin-left: 3em;
-    margin-top: 3em;
+    margin-left: 3rem;
+    margin-top: 3rem;
 }
 
 #intro h1 {
@@ -185,11 +185,14 @@ nav ul li a:hover {
 #main-container {
     display: flex;
     flex-wrap: wrap;
+    /* width: 100%; */
+    justify-content: center;
 }
-
-#projects,
-#intro {
-    width: 45%;
+#intro{
+    margin-right: 100px;
+}
+#projects{
+    margin-left: 100px;
 }
 
 #projects * {
@@ -200,6 +203,8 @@ nav ul li a:hover {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-right: 3rem;
+    margin-top: 3rem;
 }
 #projects h1{
     font-size: 4em;
@@ -236,7 +241,4 @@ abbr:hover{
 .social-row img{
     margin: 0 5px;
     cursor: pointer;
-}
-.social-row{
-
 }

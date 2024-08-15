@@ -167,7 +167,7 @@ nav ul li a:hover {
 }
 
 #intro p {
-    max-width: 500px;
+    max-width: 900px;
     color: rgba(255, 255, 255, 0.6);
     line-height: 1.5em;
     font-size: 1.2rem;
@@ -187,50 +187,44 @@ nav ul li a:hover {
 
 }
 
+main{
+    display: flex;
+    justify-content: center;
+}
+
 #main-container {
     display: flex;
     flex-wrap: wrap;
     /* width: 100%; */
-    justify-content: center;
+    max-width: 900px;
+    justify-content: start;
 }
 
 #intro {
-    margin-right: 200px;
-}
-
-#projects {
-    margin-left: 200px;
+    margin-right: 400px;
 }
 
 
 @media only screen and (max-width:1860px) {
     #intro {
-        margin-right: 100px;
+        margin-right: 200px;
     }
 
-    #projects {
-        margin-left: 100px;
-    }
+    
 
 }
 @media only screen and (max-width:1813px) {
     #intro {
-        margin-right: 50px;
+        margin-right: 100px;
     }
 
-    #projects {
-        margin-left: 50px;
-    }
 }
 @media only screen and (max-width:1563px) {
     #intro {
-        margin-right: 10px;
+        margin-right: 20px;
     }
 
-    #projects {
-        margin-left: 10px;
-    }
-    
+
     
 }
 
@@ -239,6 +233,9 @@ nav ul li a:hover {
 
 #projects *,#skills * {
     font-family: "Open Sans", sans-serif;
+}
+#intro-location{
+    text-align: start;
 }
 
 #projects {
@@ -274,7 +271,9 @@ nav ul li a:hover {
     font-size: 2.3rem;
     margin: 5px 0;
 }
-
+#project-title{
+    
+}
 .project h3 {
     margin: 5px 0;
     font-family: monospace !important;

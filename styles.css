@@ -7,6 +7,9 @@
     overflow-x: hidden;
 }
 
+a {
+    text-decoration: none;
+}
 
 body {
     background-color: black;
@@ -33,14 +36,16 @@ nav img {
 }
 
 nav {
-    position: absolute;
+    position: fixed;
     top: 0;
     display: flex;
     width: 100%;
     align-items: center;
     justify-content: space-evenly;
+    background-color: black;
     border-bottom: 1px solid hsl(218, 27%, 92%);
     flex-wrap: wrap;
+    z-index: 10;
 }
 
 .nav {
@@ -188,45 +193,93 @@ nav ul li a:hover {
     /* width: 100%; */
     justify-content: center;
 }
-#intro{
+
+#intro {
     margin-right: 200px;
 }
-#projects{
+
+#projects {
     margin-left: 200px;
 }
+
+
+
 @media only screen and (max-width:1632px) {
-    #intro{
+    #intro {
         margin-right: 100px;
     }
-    #projects{
+    #projects {
         margin-left: 100px;
     }
 
 }
 
-#projects * {
+@media only screen and (max-width:1421px) {
+    #intro {
+        margin-right: 50px;
+    }
+
+    #projects {
+        margin-left: 50px;
+    }
+
+}
+
+@media only screen and (max-width:1279px) {
+    #intro {
+        margin-right: 20px;
+    }
+
+    #projects {
+        margin-left: 20px;
+    }
+
+}
+
+@media only screen and (max-width:1100px) {
+    #intro {
+        margin: 0px;
+    }
+
+    #projects {
+        margin: 0px;
+    }
+
+}
+
+#projects *,#skills * {
     font-family: "Open Sans", sans-serif;
 }
-#projects{
+
+#projects {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-    margin-right: 3rem;
+    align-items: start;
     margin-top: 3rem;
+    margin-bottom: 3rem;
+    gap: 1.3rem;
+    /* width: 49%; */
 }
-#projects h1{
-    font-size: 4em;
 
+#projects h1 {
+    font-size: 4em;
 }
+
 .project {
     background-color: #212022;
-    max-width: 500px;
+    /* max-width: 500px; */
+    box-sizing: border-box;
+    width: 100%;
     padding: 2.1rem;
+
 }
-.project p,.project p   * {
-    color:hsla(240, 1%, 46%, 1)
+
+.project p,
+.project p * {
+    color: hsla(240, 1%, 46%, 1)
 }
+
 .project h2 {
     font-size: 2.3rem;
     margin: 5px 0;
@@ -237,17 +290,50 @@ nav ul li a:hover {
     font-family: monospace !important;
     font-size: 1.15rem;
 }
-abbr:hover{
-    cursor:help;
+
+abbr:hover {
+    cursor: help;
 }
 
 
-.social-row{
+.social-row {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    width: 100%;
 }
-.social-row img{
+
+.social-row img {
     margin: 0 5px;
     cursor: pointer;
+}
+
+.first{
+   display: none; 
+}
+.last{
+    display: inline;
+}
+@media only screen and (max-width:422px){
+    
+.first{
+    display: inline; 
+ }
+ .last{
+     display: none;
+ }
+}
+
+#skills {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    gap:2rem
+}
+.logos{
+    display: flex;
+    gap:1rem;
+}
+#skills h1{
+    font-size: 2rem;
 }

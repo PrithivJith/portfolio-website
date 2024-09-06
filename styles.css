@@ -313,7 +313,9 @@ abbr:hover {
     display: inline;
 }
 @media only screen and (max-width:422px){
-    
+#intro h1{
+    font-size: 3rem;
+}
 .first{
     display: inline; 
  }

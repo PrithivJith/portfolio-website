@@ -167,10 +167,10 @@ nav ul li a:hover {
 }
 
 #intro p {
-    max-width: 500px;
+    max-width: 600px;
     color: rgba(255, 255, 255, 0.6);
     line-height: 1.5em;
-    font-size: 1.2rem;
+    font-size: 1.4rem;
 
 }
 
@@ -253,6 +253,8 @@ nav ul li a:hover {
     margin-top: 3rem;
     margin-bottom: 3rem;
     gap: 1.3rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
     /* width: 49%; */
 }
 
@@ -322,6 +324,7 @@ abbr:hover {
 
 #skills {
     display: flex;
+    margin-top: 4rem;
     align-items: center;
     width: 100%;
     gap:2rem;

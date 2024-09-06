@@ -1,6 +1,6 @@
 const ageElement = document.getElementById("age");
 ageElement.innerText = new Date(Date.now()).getFullYear() - 2010;
-const title = document.getElementById("intro-location");
+const title = document.getElementById("title");
 let count = 0;
 setInterval(function () {
     if (count % 2 === 0) {

@@ -241,7 +241,7 @@ nav ul li a:hover {
 #projects *,#skills * {
     font-family: "Open Sans", sans-serif;
 }
-#intro-location{
+#intro h1{
     text-align: start;
 }
 
@@ -328,8 +328,8 @@ abbr:hover {
     display: flex;
     margin-top: 4rem;
     align-items: center;
+    flex-wrap: wrap;
     width: 100%;
-    gap:2rem;
 }
 .logos{
     display: flex;
@@ -338,6 +338,7 @@ abbr:hover {
 }
 #skills h1{
     font-size: 2rem;
+    margin-right: 1rem;
 }
 #skills
 #skills img{

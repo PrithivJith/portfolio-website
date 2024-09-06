@@ -49,11 +49,11 @@
                 >
                 <ul>
                     <li class="nav-item">
-                        <a href="#intro-location">Introduction</a>
+                        <a href="#intro-location" onclick="()=>{event.preventDefault()}">Introduction</a>
                     </li>
                     <li class="nav-item"><a href="#projects">Projects</a></li>
                     <li class="nav-item">
-                        <a href="#skills">Skills</a>
+                        <a href="#intro-p">Skills</a>
                     </li>
                 </ul>
                 <a href="https://mail.google.com/mail/u/0/?fs=1&to=pjshivadeep@gmail.com&su=&body=&tf=cm"
@@ -63,10 +63,11 @@
             </nav>
         </header>
         <main>
-            <div id="main-container">
+            <div id="main-container" >
+                <div id="intro-location"></div>
                 <section id="intro">
-                    <h1 id="intro-location">Hello, I'm<br />Prithiv Jith</h1>
-                    <p>
+                    <h1 id="title">Hello, I'm<br />Prithiv Jith</h1>
+                    <p id="intro-p">
                         I am a self-taught developer from
                         <u>Halifax, United Kingdom</u>, with a keen interest in
                         full-stack development. I have a solid understanding of
